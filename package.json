@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-sensible-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">= 5",
+    "@typescript-eslint/parser": ">= 5",
+    "eslint": ">= 7 && < 8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
