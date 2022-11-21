@@ -30,6 +30,8 @@ module.exports = {
       singleline: {
         delimiter: 'semi'
       },
-    }]
+    }],
+    'no-irregular-whitespace': ['error', 'always'],
+    'arrow-body-style': ['error', 'as-needed']
   }
 };
