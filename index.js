@@ -31,7 +31,7 @@ module.exports = {
         delimiter: 'semi'
       },
     }],
-    'no-irregular-whitespace': ['error', 'always'],
+    'no-irregular-whitespace': ['error'],
     'arrow-body-style': ['error', 'as-needed']
   }
 };
