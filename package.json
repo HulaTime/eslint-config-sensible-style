@@ -1,23 +1,26 @@
 {
-  "name": "eslint-config-sensible-style",
-  "version": "0.0.3",
+  "author": "hulatime@tutanota.com",
   "description": "",
-  "main": "index.js",
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 5",
-    "@typescript-eslint/parser": ">= 5",
-    "eslint": ">= 7 && < 8"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "husky": "^8.0.2",
     "standard-version": "^9.5.0"
   },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "eslint-config-sensible-style",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">= 5",
+    "@typescript-eslint/parser": ">= 5",
+    "eslint": ">= 7 && < 8"
+  },
   "scripts": {
     "release": "standard-version"
+  },
+  "version": "0.0.3",
+  "repository": {
+    "url": "https://github.com/HulaTime/eslint-config-sensible-style"
   }
 }
