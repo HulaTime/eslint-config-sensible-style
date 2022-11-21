@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.4 (2022-11-21)
+
+
+### Bug Fixes
+
+* bad definition of no-irregular-whitespace rule ([ec58986](https://github.com/HulaTime/eslint-config-sensible-style/commit/ec58986c255176cee88ed658904b48d26c85cc00))
+
 ### 0.0.3 (2022-11-21)
 - Initial set of basic eslint rules
 ```
