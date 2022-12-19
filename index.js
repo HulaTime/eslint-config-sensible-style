@@ -20,7 +20,7 @@ module.exports = {
     'arrow-body-style': ['error', 'as-needed'],
     'comma-dangle': ['error', 'always-multiline'],
     'eol-last': ['error', 'always'],
-    indent: ['error', 2],
+    indent: ['error', 2, { SwitchCase: 1 }],
     'lines-between-class-members': 'error',
     'max-len': ['error', {
       code: 110,
