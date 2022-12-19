@@ -7,21 +7,6 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: ['plugin:@typescript-eslint/recommended'],
   rules: {
-    'array-bracket-spacing': ['error', 'never'],
-    'eol-last': ['error', 'always'],
-    'newline-per-chained-call': ['error', {
-      ignoreChainWithDepth: 2,
-    }],
-    'object-curly-spacing': ['error', 'always'],
-    'lines-between-class-members': 'error',
-    'no-whitespace-before-property': 'error',
-    indent: ['error', 2],
-    'max-len': ['error', {
-      code: 110,
-      ignoreStrings: true,
-    }],
-    semi: ['error', 'always'],
-    quotes: ['error', 'single'],
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/member-delimiter-style': ['error', {
       multiline: {
@@ -31,7 +16,30 @@ module.exports = {
         delimiter: 'semi'
       },
     }],
+    'array-bracket-spacing': ['error', 'never'],
+    'arrow-body-style': ['error', 'as-needed'],
+    'comma-dangle': ['error', 'always-multiline'],
+    'eol-last': ['error', 'always'],
+    indent: ['error', 2],
+    'lines-between-class-members': 'error',
+    'max-len': ['error', {
+      code: 110,
+      ignoreStrings: true,
+    }],
+    'newline-per-chained-call': ['error', {
+      ignoreChainWithDepth: 2,
+    }],
     'no-irregular-whitespace': ['error'],
-    'arrow-body-style': ['error', 'as-needed']
+    'no-whitespace-before-property': 'error',
+    'object-curly-spacing': ['error', 'always'],
+    'object-curly-newline': ['error', {
+      minProperties: 4,
+      multiline: true,
+    }],
+    'object-property-newline': ['error', {
+      allowAllPropertiesOnSameLine: true,
+    }],
+    quotes: ['error', 'single'],
+    semi: ['error', 'always']
   }
 };
