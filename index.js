@@ -5,7 +5,11 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/recommended'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript'
+  ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/member-delimiter-style': ['error', {
@@ -20,7 +24,10 @@ module.exports = {
     'arrow-body-style': ['error', 'as-needed'],
     'comma-dangle': ['error', 'always-multiline'],
     'eol-last': ['error', 'always'],
-    indent: ['error', 2, { SwitchCase: 1 }],
+    indent: ['error', 2, {SwitchCase: 1}],
+    'import/order': ['error', {
+      'newlines-between': 'always',
+    }],
     'lines-between-class-members': 'error',
     'max-len': ['error', {
       code: 110,
@@ -41,5 +48,11 @@ module.exports = {
     }],
     quotes: ['error', 'single'],
     semi: ['error', 'always']
+  },
+  settings: {
+    'import/resolver': {
+      typescript: true,
+      node: true,
+    }
   }
 };
