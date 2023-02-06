@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sensible-style",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -15,10 +15,8 @@
     "husky": "^8.0.2",
     "standard-version": "^9.5.0"
   },
-  "peerDependencies": {
-    "eslint": ">= 7 && < 8"
-  },
   "dependencies": {
+    "eslint": ">= 7 && < 8",
     "@typescript-eslint/eslint-plugin": ">= 5",
     "@typescript-eslint/parser": ">= 5",
     "eslint-import-resolver-typescript": "^3.5.2",
